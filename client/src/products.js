@@ -9,7 +9,8 @@ const products = [
         category: 'Cow Meat',
         price: 20,
         rating: 3,
-        numReviews: 5
+        numReviews: 5,
+        countInStock: 0
     },
 
     {
@@ -20,7 +21,8 @@ const products = [
         category: 'Goat Meat',
         price: 30,
         rating: 7,
-        numReviews: 9
+        numReviews: 9,
+        countInStock: 6
     },
 
     {
@@ -31,7 +33,8 @@ const products = [
         category: 'Goat Meat',
         price: 30,
         rating: 5,
-        numReviews: 9
+        numReviews: 9,
+        countInStock: 4
     },
 
     {
@@ -42,7 +45,8 @@ const products = [
         category: 'Cow Meat',
         price: 80,
         rating: 4,
-        numReviews: 7
+        numReviews: 7,
+        countInStock: 8
     }
 ]
 
