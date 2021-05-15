@@ -8,15 +8,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon --exec babel-node server.js",
     "start": "npm run start --prefix client",
-    "dev": "concurrently \"npm run server\" \"cd .. & cd client && npm run start\""
+    "dev": "concurrently \"npm run server\" \"cd .. & cd client && npm run start\"",
+    "data:import": "node seeders.js",
+    "data:destroy": "node server/seeder -d"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
     "mongoose": "^5.12.5"
   },
   "devDependencies": {

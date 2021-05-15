@@ -1,7 +1,6 @@
 
 const products = [
     {
-        _id: '1',
         name: 'Fresh Cow Shared Meat',
         image: '/image/cow-meat.jpg',
         description: 'A freshly killed cow meat',
@@ -13,7 +12,6 @@ const products = [
     },
 
     {
-        _id: '2',
         name: 'Fresh 1/2 Shared Goat Meat',
         image: './image/sliced-meat.jpg',
         description: 'A freshly killed shared goat meat',
@@ -25,7 +23,6 @@ const products = [
     },
 
     {
-        _id: '3',
         name: 'Fresh 1/30 Shared Cow Meat',
         image: '/image/spread-meat.jpg',
         description: 'A freshly killed goat meat',
@@ -37,7 +34,6 @@ const products = [
     },
 
     {
-        _id: '4',
         name: 'Fresh 1/15 Shared Cow Meat',
         image: '/image/meat-fresh.jpg',
         description: 'A freshly killed shared cow meat',
